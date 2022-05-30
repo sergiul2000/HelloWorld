@@ -15,41 +15,41 @@
         tools:layout_editor_absoluteY="-1dp">
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/nume"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="64dp"
             android:ems="10"
             android:hint="nume"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/prenume"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="95dp"
             android:ems="10"
             android:hint="prenume"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName4"
+            android:id="@+id/email"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="93dp"
             android:ems="10"
             android:hint="email"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName5"
+            android:id="@+id/username"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="87dp"
             android:ems="10"
             android:hint="username"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPassword2"
+            android:id="@+id/pass"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="88dp"
             android:ems="10"
             android:hint="pass"
             android:inputType="textPassword" />
@@ -64,7 +64,7 @@
         <Switch
             android:id="@+id/adminClient"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="75dp"
             android:text="Left admin, right client" />
 
     </LinearLayout>

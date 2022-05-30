@@ -49,7 +49,7 @@ class ActivityClient : AppCompatActivity() {
      */
     private fun faRezervare(textView:TextView): Int{
 
-        var oraString:String = textView.text.toString()
+        val oraString:String = textView.text.toString()
         if(oraString=="")
             return -1
         val ora=Integer.parseInt(oraString)
